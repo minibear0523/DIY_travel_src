@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="SkyStarStudio">
+
+  <title> 一格旅行 </title>
+
+  <!-- STYLES -->
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/flexslider.css" rel="stylesheet" media="screen">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+  <!-- LIGHT -->
+  <link rel="stylesheet" type="text/css" href="assets/css/dummy.css" id="select-style">
+  <link rel="stylesheet" type="text/css" href="assets/css/color/red.css">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/css/light.css" rel="stylesheet" media="screen">
+
+</head>
+<body class="load-full-screen">
+  <!-- BEGIN: PRELOADER -->
+  <div id="loader" class="load-full-screen">
+    <div class="loading-animation">
+      <span><i class="fa fa-plane"></i></span>
+      <span><i class="fa fa-bed"></i></span>
+      <span><i class="fa fa-ship"></i></span>
+      <span><i class="fa fa-suitcase"></i></span>
+    </div>
+  </div>
+  <!-- END: PRELOADER -->
+
+  <!-- BEGIN: SITE-WRAPPER -->
+  <div class="site-wrapper">
+    <div class="row header-top">
+      <div class="container clear-padding">
+        <div class="navbar-contact">
+          <div class="col-md-7 col-sm-6 clear-padding">
+            <a href="#" class="transition-effect"><i class="fa fa-phone"></i> (+86)18911983180</a>
+            <a href="#" class="transition-effect"><i class="fa fa-envelope-o"></i> skystarstudio@163.com</a>
+          </div>
+          <div class="col-md-5 col-sm-6 clear-padding search-box">
+            <div class="col-md-6 col-xs-5 clear-padding">
+              <form >
+                <div class="input-group">
+                  <input type="text" name="search" class="form-control" required placeholder="搜索">
+                  <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 col-xs-7 clear-padding user-logged">
+              <a href="#" class="transition-effect">
+                <img src="assets/images/user.jpg" alt="skystarstudio">
+                一格旅行
+              </a>
+              <a href="#" class="transition-effect">
+                <i class="fa fa-sign-out"></i>登出
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row light-menu">
+      <div class="container clear-padding">
+        <!-- BEGIN: HEADER -->
+        <div class="navbar-wrapper">
+          <div class="navbar navbar-default" role="navigation">
+            <!-- BEGIN: NAV-CONTAINER -->
+            <div class="nav-container">
+              <div class="navbar-header">
+                <!-- BEGIN: TOOGLE BUTTON (RESPONSIVE)-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <!-- BEGIN: LOGO -->
+                <a class="navbar-brand logo" href="index.html">一格旅行</a>
+              </div>
+
+              <!-- BEGIN: NAVIGATION -->
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="#" ><i class="fa fa-home"></i> 首页</a>
+                  </li>
+                  <li>
+                    <a href="diy.html"><i class="fa fa-pencil"></i> 私人定制</a>
+                  </li>
+                  <li>
+                    <a href="free.html"><i class="fa fa-suitcase"></i> 自由行</a>
+                  </li>
+                  <li>
+                    <a href="services.html"><i class="fa fa-ship"></i> 服务</a>
+                  </li>
+                  <li>
+                    <a href="about.html"><i class="fa fa-bookmark"></i> 关于我们</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- END: NAVIGATION -->
+            </div>
+            <!-- END: NAV-CONTAINER -->
+          </div>
+        </div>
+        <!-- END: HEADER -->
+      </div>
+    </div>
+    <div class="row">
+      <div id="room-gallery" class="carousel slide bg-slider" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#root-gallery" data-slide-to="0" class="active"></li>
+          <li data-target="#root-gallery" data-slide-to="1" class="active"></li>
+          <li data-target="#root-gallery" data-slide-to="2" class="active"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <img src="assets/images/slide.jpg" alt="SkyStarStudio">
+            <div class="carousel-caption">
+              <div class="wrapper">
+                <h2><span>一格旅行</span></h2>
+                <h4>您身边的<span>私人旅行</span>定制师</h4>
+                <a href="#">查看服务</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/slide.jpg" alt="SkyStarStudio">
+            <div class="carousel-caption">
+              <div class="wrapper">
+                <h2><span>一格旅行</span></h2>
+                <h4>您身边的<span>私人旅行</span>定制师</h4>
+                <a href="#">查看服务</a>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <img src="assets/images/slide.jpg" alt="SkyStarStudio">
+            <div class="carousel-caption">
+              <div class="wrapper">
+                <h2><span>一格旅行</span></h2>
+                <h4>您身边的<span>私人旅行</span>定制师</h4>
+                <a href="#">查看服务</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#room-gallery" role="button" data-slide="prev">
+          <span class="fa fa-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">上一页</span>
+        </a>
+        <a class="right carousel-control" href="#room-gallery" role="button" data-slide="next">
+          <span class="fa fa-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">下一页</span>
+        </a>
+      </div>
+    </div>
+    <!-- BEGIN: SEARCH SECTION -->
+    <div class="row bottom-search">
+      <div class="container clear-padding">
+        <div class="col-md-12 search-section">
+          <div role="tabpanel">
+            <!-- BEGIN: CATEGORY TAB -->
+            <ul class="nav nav-tabs search-top" role="tablist" id="searchTab">
+              <li role="presentation" class="text-center active">
+                <a href='#DIY' aria-controls="DIY" role="tab" data-toggle="tab">
+                  <i class="fa fa-pencil"></i>
+                  <span>私人定制</span>
+                </a>
+              </li>
+              <li role="presentation" class="text-center">
+                <a href="#FREE" aria-controls="FREE" role="tab" data-toggle="tab">
+                  <i class="fa fa-suitcase"></i>
+                  <span>自由行线路</span>
+                </a>
+              </li>
+            </ul>
+            <!-- END: CATEGORY TAB -->
+
+            <!-- BEGIN: TAB PANELS -->
+            <div class="tab-content">
+              <!-- BEGIN: DIY Travel -->
+              <div role='tabpanel' class='tab-pane active' id='DIY'>
+                <form >
+                  <div class='col-md-12 product-search-title'>私人定制需求单</div>
+                  <div class="clearfix"></div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>出发地</label>
+                    <div class="input-group">
+                      <input type="text" name="departure_city" class="form-control" required placeholder="例如: 北京">
+                      <span class="input-group-addon"><i class="fa fa-map-marker fa-fw"></i></span>
+                    </div>
+                  </div>
+                  <div class="col-md-4 col-sm-4 search-col-padding">
+                    <label>我想去...</label>
+                    <div class="input-group">
+                      <input type='text' name='destination_city' class='form-control' required placeholder='例如: 日本东京'>
+                      <span class='input-group-addon'><i class='fa fa-map-marker fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>出发日期</label>
+                    <div class='input-group'>
+                      <input type='text' id='departure_date' name='departure_date' class='form-control' placeholder='YYYY/MM/DD'>
+                      <span class='input-group-addon'><i class='fa fa-calendar fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='clearfix'></div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>天数</label><br>
+                    <select class='selectpicker' name='package_duration'>
+                      <option>5天</option>
+                      <option>7天</option>
+                      <option>12天</option>
+                    </select>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>类型</label><br>
+                    <select class='selectpicker' name='package_type'>
+                      <option>团体</option>
+                      <option>家庭</option>
+                      <option>个人</option>
+                      <option>蜜月</option>
+                      <option>亲子</option>
+                    </select>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>预算</label><br>
+                    <select class='selectpicker' name='package_budget'>
+                      <option>5000元以下</option>
+                      <option>5000-10000元</option>
+                      <option>10000元以上</option>
+                    </select>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class='col-md-12 search-col-padding'>
+                    <button type='submit' class='search-button btn transition-effect'>立即定制</button>
+                  </div>
+                  <div class='clearfix'></div>
+                </form>
+              </div>
+              <!-- END: DIY Travel -->
+              <!-- BEGIN: FREE Travel -->
+              <div role='tabpanel' class='tab-pane' id='FREE'>
+                <form >
+                  <div class='col-md-12 product-search-title'>搜索自由行产品</div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>出发地</label>
+                    <div class='input-group'>
+                      <input class='form-control' type='text' name='departure_city' required placeholder='例如: 北京'>
+                      <span class='input-group-addon'><i class='fa fa-map-marker fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>目的地</label>
+                    <div class='input-group'>
+                      <input class='form-control' type='text' name='destination_city' required placeholder='例如: 日本东京'>
+                      <span class='input-group-addon'><i class='fa fa-map-marker fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>出发日期</label>
+                    <div class='input-group'>
+                      <input type='text' id='departure_date' class='form-control' placeholder='YYYY/MM/DD'>
+                      <span class='input-group-addon'><i class='fa fa-calendar fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='clearfix'></div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>天数</label><br>
+                    <select class='selectpicker' name='package_duration'>
+                      <option>5天</option>
+                      <option>7天</option>
+                      <option>12天</option>
+                    </select>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>类型</label><br>
+                    <select class='selectpicker' name='package_type'>
+                      <option>团体</option>
+                      <option>家庭</option>
+                      <option>个人</option>
+                      <option>蜜月</option>
+                      <option>亲子</option>
+                    </select>
+                  </div>
+                  <div class='col-md-4 col-sm-4 search-col-padding'>
+                    <label>预算</label><br>
+                    <select class='selectpicker' name='package_budget'>
+                      <option>5000元以下</option>
+                      <option>5000-10000元</option>
+                      <option>10000元以上</option>
+                    </select>
+                  </div>
+                  <div class="clearfix"></div>
+                  <div class='col-md-12 search-col-padding'>
+                    <button type='submit' class='search-button btn transition-effect'>搜索</button>
+                  </div>
+                  <div class='clearfix'></div>
+                </form>
+              </div>
+              <!-- END: FREE Travel -->
+            </div>
+            <!-- END: TAB PANELS -->
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END: SEARCH SECTION -->
+    <section class="hotel-product home-product">
+      <div class="row light-row">
+        <div class="col-md-6 clear-padding wow slideInLeft">
+          <div class='product-wrapper'>
+            <div class='col-md-6 col-sm-6 home-product-padding tooltip-right'>
+              <h4>东京一地5日游</h4>
+              <h5><i class='fa fa-map-marker'></i> 东京</h5>
+              <p>这条东京一地的线路是我们专为一对情侣设计的, 不仅包含了当地特色的酒店以及日本文化和各种珍馐美味, 还有各种摄影和动漫景点.</p>
+              <div class="rating-box">
+                <div class='pull-left'>
+                  <i class='fa fa-trophy'></i><span> 4.0/5.0</span>
+                </div>
+                <div class='pull-right'>
+                  <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-o'></i><span>4.0/5.0</span>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+              <div class='pricing-info'>
+                <div class='pull-left'>
+                  <span>8000元/人</span>
+                </div>
+                <div class='pull-right'>
+                  <a href='#' class='wow fadeIn'>预定</a>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+            </div>
+            <div class='col-md-6 col-sm-6 clear-padding image-sm text-center'>
+              <img src="assets/images/home2.jpg" alt='skystarstudio'>
+              <div class='detail-link-wrapper'>
+                <div class='detail-link'>
+                  <a href='#'><i class='fa fa-search'></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class='clearfix'></div>
+          <div class='product-wrapper'>
+            <div class='col-md-6 col-sm-6 clear-padding image-sm text-center'>
+              <img src="assets/images/tour1.jpg" alt='skystarstudio'>
+              <div class='detail-link'>
+                <a href='#'><i class='fa fa-search'></i></a>
+              </div>
+            </div>
+            <div class='col-md-6 col-sm-6 home-product-padding tooltip-left'>
+              <h4>大阪京都5日游</h4>
+              <h5><i class='fa fa-map-marker'></i> 日本</h5>
+              <p>体验日本经典文化, 游览大阪和京都的古典建筑. 不仅包括经典的日本特色景点, 还有体验温泉, 茶道.</p>
+              <div class='rating-box'>
+                <div class='pull-left'>
+                  <i class='fa fa-trophy'></i><span> 4.5/5.0</span>
+                </div>
+                <div class='pull-right'>
+                  <i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star'></i><i class='fa fa-star-half-o'></i><span>4.5/5.0</span>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+              <div class='pricing-info'>
+                <div class='pull-left'>
+                  <span>9500元/人</span>
+                </div>
+                <div class='pull-right'>
+                  <a href="#" class='wow fadeIn'>预定</a>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+            </div>
+          </div>
+        </div>
+        <div class='clearfix visible-sm-block'></div>
+        <div class='col-md-6 clear-padding image-lg wow slideInRight'>
+          <img src="assets/images/home.jpg" alt='skystarstudio'>
+          <div class='overlay'>
+            <div class='product-detail text-center'>
+              <h3>北海道7日游</h3>
+              <h5><i class='fa fa-map-marker'></i> 北海道</h5>
+              <p>日本北海道全景7日游</p>
+              <div class='rating-box'>
+                <div class='pull-left'>
+                  <i class='fa fa-trophy'></i><span> 5.0/5.0</span>
+                </div>
+                <div class='pull-right'>
+                  <i class='fa fa-start'></i><i class='fa fa-start'></i><i class='fa fa-start'></i><i class='fa fa-start'></i><i class='fa fa-start'></i><span>5.0/5.0</span>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+              <div class='pricing-info'>
+                <div class='pull-left'>
+                  <span>13000元/人</span>
+                </div>
+                <div class='pull-right'>
+                  <a href="#" class='wow fadeIn'>预定</a>
+                </div>
+              </div>
+              <div class='clearfix'></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: PRODUCT SECTION -->
+
+    <!-- BEGIN: TOP DESTINATION SECTION -->
+    <section id='home-top-destination'>
+      <div class='row image-background'>
+        <div class='td-overlay'>
+          <div class='container'>
+            <div class='light-section-title text-center'>
+              <h2>最受欢迎目的地</h2>
+              <h4>探索</h4>
+              <div class='space'></div>
+              <p></p>
+            </div>
+            <div class='col-md-10 col-md-offset-1 on-top clear-padding'>
+              <div class='col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp' data-wow-delay='0.1s'>
+                <img src="assets/images/tour1.jpg" alt='skystarstudio'>
+                <div class='overlay'>
+                  <div class='wrapper'>
+                    <h5>东京</h5>
+                    <h3><span>现代化都市与日本文化的完美结合</span></h3>
+                    <p>日本传统文化与现代化大都市的完美结合</p>
+                    <a href="#">了解更多</a>
+                  </div>
+                </div>
+              </div>
+               <div class='col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp' data-wow-delay='0.2s'>
+                <img src="assets/images/tour1.jpg" alt='skystarstudio'>
+                <div class='overlay'>
+                  <div class='wrapper'>
+                    <h5>东京</h5>
+                    <h3><span>现代化都市与日本文化的完美结合</span></h3>
+                    <p>日本传统文化与现代化大都市的完美结合</p>
+                    <a href="#">了解更多</a>
+                  </div>
+                </div>
+              </div>
+              <div class='col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp' data-wow-delay='0.1s'>
+                <img src="assets/images/tour1.jpg" alt='skystarstudio'>
+                <div class='overlay'>
+                  <div class='wrapper'>
+                    <h5>东京</h5>
+                    <h3><span>现代化都市与日本文化的完美结合</span></h3>
+                    <p>日本传统文化与现代化大都市的完美结合</p>
+                    <a href="#">了解更多</a>
+                  </div>
+                </div>
+              </div>
+              <div class='col-md-6 col-sm-6 td-product text-center clear-padding wow slideInUp' data-wow-delay='0.2s'>
+                <img src="assets/images/tour1.jpg" alt='skystarstudio'>
+                <div class='overlay'>
+                  <div class='wrapper'>
+                    <h5>东京</h5>
+                    <h3><span>现代化都市与日本文化的完美结合</span></h3>
+                    <p>日本传统文化与现代化大都市的完美结合</p>
+                    <a href="#">了解更多</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: TOP DESTINATION SECTION -->
+
+    <!-- BEGIN: WHY CHOOSE US SECTION -->
+    <section id='why-choose-us'>
+      <div class='row choose-us-row'>
+        <div class='container clear-padding'>
+          <div class='light-section-title text-center'>
+            <h2>为什么选择我们?</h2>
+            <h4>相信我们的理由</h4>
+            <div class='space'></div>
+            <p>独一无二体验, 贴心的定制, 终身难忘的旅程</p>
+          </div>
+          <div class='col-md-4 col-sm-4 wow slideInLeft'>
+            <div class='choose-us-item text-center'>
+              <div class='choose-icon'><i class='fa fa-suitcase'></i></div>
+              <h4>个性化旅行</h4>
+              <p>根据您的兴趣和需求, 加上我们专业的分析, 为您完全定制一套独一无二的个性化旅行, 为您留下一趟终身难忘的旅行.</p>
+              <a href="#">了解更多</a>
+            </div>
+          </div>
+          <div class='col-md-4 col-sm-4 wow slideInLeft'>
+            <div class='choose-us-item text-center'>
+              <div class='choose-icon'><i class='fa fa-phone'></i></div>
+              <h4>贴心服务</h4>
+              <p>不仅为您定制一套个性化的旅行, 还会为您制作一套精心准备的个性化路书, 帮助您在旅途中体验到旅行管家的感觉.</p>
+              <a href="#">了解更多</a>
+            </div>
+          </div>
+          <div class='col-md-4 col-sm-4 wow slideInLeft'>
+            <div class='choose-us-item text-center'>
+              <div class='choose-icon'><i class='fa fa-smile-o'></i></div>
+              <h4>透明化价格</h4>
+              <p>收费合理并且透明, 为您提供详细的价格明细, 让您消费的明白, 玩的开心. 不花冤枉钱, 留下美好的回忆.</p>
+              <a href="#">了解更多</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: WHY CHOOSE US SECTION -->
+
+    <!-- BEGIN: FOOTER -->
+    <section id='footer'>
+      <footer>
+        <div class='row main-footer-sub'>
+          <div class='container clear-padding'>
+            <div class='col-md-7 col-sm-7'>
+              <form >
+                <label>订阅新闻</label>
+                <div class='clearfxi'></div>
+                <div class='col-md-9 col-sm-8 col-xs-6 clear-padding'>
+                  <input class='form-control' type='email' required placeholder='输入您的邮箱' name='email'>
+                </div>
+                <div class='col-md-3 col-sm-4 col-xs-6 clear-padding'>
+                  <button type='submit'><i class='fa fa-paper-plane'></i>订阅</button>
+                </div>
+              </form>
+            </div>
+            <div class='col-md-5 col-sm-5'>
+              <div class='social-media pull-right'>
+                <ul>
+                  <li><a href="#"><i class='fa fa-weibo'></i></a></li>
+                  <li><a href="#"><i class='fa fa-weixin'></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='main-footer row'>
+          <div class='container clear-padding'>
+            <div class='col-md-3 col-sm-6 about-box'>
+              <h3>一格旅行</h3>
+              <p>您身边的私人旅行定制师</p>
+              <a href="#">了解更多</a>
+            </div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>热门线路</h4>
+              <ul>
+                <li><a href="#">东京一地5日游</a></li>
+                <li><a href="#">大阪京都5日游</a></li>
+                <li><a href="#">北海道7日游</a></li>
+              </ul>
+            </div>
+            <div class='clearfix visible-sm-block'></div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>我们的服务</h4>
+              <ul>
+                <li><a href="#">私人个性化定制</a></li>
+                <li><a href="#">经典自由行线路</a></li>
+                <li><a href="#">机票酒店预定</a></li>
+                <li><a href="#">代办签证</a></li>
+              </ul>
+            </div>
+            <div class='col-md-3 col-sm-6 contact-box'>
+              <h4>联系我们</h4>
+              <p><i class='fa fa-home'></i> 北京市西便门外大街7号院</p>
+              <p><i class='fa fa-phone'></i> +86 18911983180</p>
+              <p><i class='fa fa-envelope-o'></i> skystarstudio@163.com</p>
+            </div>
+            <div class='clearfix'></div>
+            <div class='col-md-12 text-center we-accept'>
+              <h4>付款方式</h4>
+              <ul>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='main-footer-nav row'>
+          <div class='container clear-padding'>
+            <div class='col-md-6 col-sm-6'>
+              <p>Copyright &copy; 2016 SkyStarStudio. All Rights Reserved.</p>
+            </div>
+            <div class='col-md-6 col-sm-6'>
+              <ul>
+                <li><a href="#">私人定制</a></li>
+                <li><a href="#">自由行线路</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">关于我们</a></li>
+              </ul>
+            </div>
+            <div class='go-up'>
+              <a href="#"><i class='fa fa-arrow-up'></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- END: FOOTER -->
+  </div>
+  <script src="assets/js/respond.js"></script>
+  <script src="assets/js/jquery.js"></script>
+  <script src="assets/plugins/owl.carousel.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/jquery-ui.min.js"></script>
+  <script src="assets/js/bootstrap-select.min.js"></script>
+  <script src="assets/plugins/wow.min.js"></script>
+  <script type="text/javascript" src="assets/plugins/supersized.3.1.3.min.js"></script>
+  <script src="assets/js/js.js"></script>
+</body>
+</html>

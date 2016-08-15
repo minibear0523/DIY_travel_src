@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="SkyStarStudio">
+
+  <title> 一格旅行 </title>
+
+  <!-- STYLES -->
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/flexslider.css" rel="stylesheet" media="screen">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+  <!-- LIGHT -->
+  <link rel="stylesheet" type="text/css" href="assets/css/dummy.css" id="select-style">
+  <link rel="stylesheet" type="text/css" href="assets/css/color/red.css">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/css/light.css" rel="stylesheet" media="screen">
+
+</head>
+<body class="load-full-screen">
+  <!-- BEGIN: PRELOADER -->
+  <div id="loader" class="load-full-screen">
+    <div class="loading-animation">
+      <span><i class="fa fa-plane"></i></span>
+      <span><i class="fa fa-bed"></i></span>
+      <span><i class="fa fa-ship"></i></span>
+      <span><i class="fa fa-suitcase"></i></span>
+    </div>
+  </div>
+  <!-- END: PRELOADER -->
+
+  <!-- BEGIN: SITE-WRAPPER -->
+  <div class="site-wrapper">
+    <div class="row header-top">
+      <div class="container clear-padding">
+        <div class="navbar-contact">
+          <div class="col-md-7 col-sm-6 clear-padding">
+            <a href="#" class="transition-effect"><i class="fa fa-phone"></i> (+86)18911983180</a>
+            <a href="#" class="transition-effect"><i class="fa fa-envelope-o"></i> skystarstudio@163.com</a>
+          </div>
+          <div class="col-md-5 col-sm-6 clear-padding search-box">
+            <div class="col-md-6 col-xs-5 clear-padding">
+              <form >
+                <div class="input-group">
+                  <input type="text" name="search" class="form-control" required placeholder="搜索">
+                  <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 col-xs-7 clear-padding user-logged">
+              <a href="#" class="transition-effect">
+                <img src="assets/images/user.jpg" alt="skystarstudio">
+                一格旅行
+              </a>
+              <a href="#" class="transition-effect">
+                <i class="fa fa-sign-out"></i>登出
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row light-menu">
+      <div class="container clear-padding">
+        <!-- BEGIN: HEADER -->
+        <div class="navbar-wrapper">
+          <div class="navbar navbar-default" role="navigation">
+            <!-- BEGIN: NAV-CONTAINER -->
+            <div class="nav-container">
+              <div class="navbar-header">
+                <!-- BEGIN: TOOGLE BUTTON (RESPONSIVE)-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <!-- BEGIN: LOGO -->
+                <a class="navbar-brand logo" href="index.html">一格旅行</a>
+              </div>
+
+              <!-- BEGIN: NAVIGATION -->
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="#" ><i class="fa fa-home"></i> 首页</a>
+                  </li>
+                  <li>
+                    <a href="diy.html"><i class="fa fa-pencil"></i> 私人定制</a>
+                  </li>
+                  <li>
+                    <a href="free.html"><i class="fa fa-suitcase"></i> 自由行</a>
+                  </li>
+                  <li>
+                    <a href="services.html"><i class="fa fa-ship"></i> 服务</a>
+                  </li>
+                  <li>
+                    <a href="about.html"><i class="fa fa-bookmark"></i> 关于我们</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- END: NAVIGATION -->
+            </div>
+            <!-- END: NAV-CONTAINER -->
+          </div>
+        </div>
+        <!-- END: HEADER -->
+      </div>
+    </div>
+
+    <!-- START: PAGE TITLE -->
+    <div class='row page-title'>
+      <div class='container clear-padding text-center flight-title'>
+        <h3>私人定制旅行</h3>
+        <h4><i class='fa fa-edit'></i>您身边的专业定制师</h4>
+      </div>
+    </div>
+    <!-- END: PAGE TITLE -->
+    <!-- START: BOOKING TAB -->
+    <div class='row booking-tab'>
+      <div class='container clear-padding'>
+        <ul class='nav nav-tabs'>
+          <li class='active col-md-4 col-sm-4 col-xs-4'>
+            <a data-toggle='tab' class='text-center' href="#basic-info">
+              <i class='fa fa-edit'></i>
+              <span>基本需求</span>
+            </a>
+          </li>
+          <li class='col-md-4 col-sm-4 col-xs-4'>
+            <a data-toggle='tab' class='text-center' href="#traveller-info">
+              <i class='fa fa-male'></i>
+              <span>旅行者标签</span>
+            </a>
+          </li>
+          <li class='col-md-4 col-sm-4 col-xs-4'>
+            <a data-toggle='tab' class='text-center' href="#advanced-info">
+              <i class='fa fa-check-square'></i>
+              <span>服务标准</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- END: BOOKING TAB -->
+    <div class='row booking-detail'>
+      <div class='container clear-padding'>
+        <div class='tab-content'>
+          <!-- START: BASIC INFO -->
+          <div id='basic-info' class='tab-pane fade in active'>
+            <div class='col-md-8 col-sm-8'>
+              <div class='passenger-detail'>
+                <h3>基本信息</h3>
+                <div class='passenger-detail-body'>
+                  <form >
+                    <div class='col-md-4 col-sm-4'>
+                      <label>出发城市</label>
+                      <input type='text' name='departure_city' required class='form-control' placeholder='例如: 北京'>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <label>目的地</label>
+                      <input type='text' name='destination_city' required class='form-control' placeholder='空格分隔, 例如: 东京 大阪 京都 北海道'>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-8 col-sm-8'>
+                      <label>出发日期</label>
+                      <div class='clearfix'></div>
+                      <div class='col-md-4 col-sm-4 col-xs-4 clear-padding'>
+                        <select class='form-control' name='year'>
+                          <option>2016</option>
+                          <option>2017</option>
+                        </select>
+                      </div>
+                      <div class='col-md-4 col-sm-4 col-xs-4'>
+                        <select class='form-control' name='month'>
+                          <option>01</option>
+                          <option>02</option>
+                          <option>03</option>
+                          <option>04</option>
+                          <option>05</option>
+                          <option>06</option>
+                          <option>07</option>
+                          <option>08</option>
+                          <option>09</option>
+                          <option>10</option>
+                          <option>11</option>
+                          <option>12</option>
+                        </select>
+                      </div>
+                      <div class='col-md-4 col-sm-4 col-xs-4 clear-padding'>
+                        <input type='text' class='form-control' name='day' required placeholder='例如: 8'>
+                      </div>
+                    </div>
+                    <div class='col-md-4 col-sm-4'>
+                      <label>旅行天数</label>
+                      <input class='form-control' type='text' name='duration' required placeholder='例如: 5天, 10天, 14天'>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-4 col-sm-4'>
+                      <label>成人</label>
+                      <input class='form-control' type='text' name='adult' required placeholder='1'>
+                    </div>
+                    <div class='col-md-4 col-sm-4'>
+                      <label>儿童</label>
+                      <input class='form-control' type='text' name='child' placeholder='0'>
+                    </div>
+                    <div class='col-md-4 col-sm-4'>
+                      <label>类型</label>
+                      <select class='form-control' name='type'>
+                        <option>团体</option>
+                        <option>家庭</option>
+                        <option>个人</option>
+                        <option>蜜月</option>
+                        <option>亲子</option>
+                      </select>
+                    </div>
+                    <div class='text-center'>
+                      <button type='submit'>下一步 <i class='fa fa-chevron-right'></i></button>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END: BASIC INFO -->
+          <!-- START: TRAVELLERS TAG-->
+          <div id='traveller-info' class='tab-pane fade'>
+
+          </div>
+          <!-- END: TRAVELLERS TAG-->
+          <!-- START: ADVANCED INFO -->
+          <div id='advanced-info' class='tab-pane fade'>
+
+          </div>
+          <!-- END: ADVANCED INFO -->
+        </div>
+      </div>
+    </div>
+
+
+        <div class='main-footer row'>
+          <div class='container clear-padding'>
+            <div class='col-md-3 col-sm-6 about-box'>
+              <h3>一格旅行</h3>
+              <p>您身边的私人旅行定制师</p>
+              <a href="#">了解更多</a>
+            </div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>热门线路</h4>
+              <ul>
+                <li><a href="#">东京一地5日游</a></li>
+                <li><a href="#">大阪京都5日游</a></li>
+                <li><a href="#">北海道7日游</a></li>
+              </ul>
+            </div>
+            <div class='clearfix visible-sm-block'></div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>我们的服务</h4>
+              <ul>
+                <li><a href="#">私人个性化定制</a></li>
+                <li><a href="#">经典自由行线路</a></li>
+                <li><a href="#">机票酒店预定</a></li>
+                <li><a href="#">代办签证</a></li>
+              </ul>
+            </div>
+            <div class='col-md-3 col-sm-6 contact-box'>
+              <h4>联系我们</h4>
+              <p><i class='fa fa-home'></i> 北京市西便门外大街7号院</p>
+              <p><i class='fa fa-phone'></i> +86 18911983180</p>
+              <p><i class='fa fa-envelope-o'></i> skystarstudio@163.com</p>
+            </div>
+            <div class='clearfix'></div>
+            <div class='col-md-12 text-center we-accept'>
+              <h4>付款方式</h4>
+              <ul>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='main-footer-nav row'>
+          <div class='container clear-padding'>
+            <div class='col-md-6 col-sm-6'>
+              <p>Copyright &copy; 2016 SkyStarStudio. All Rights Reserved.</p>
+            </div>
+            <div class='col-md-6 col-sm-6'>
+              <ul>
+                <li><a href="#">私人定制</a></li>
+                <li><a href="#">自由行线路</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">关于我们</a></li>
+              </ul>
+            </div>
+            <div class='go-up'>
+              <a href="#"><i class='fa fa-arrow-up'></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- END: FOOTER -->
+  </div>
+  <!-- END: SITE WRAPPER -->
+    <!-- Load Scripts -->
+    <script src="assets/js/respond.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/wow.min.js"></script>
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>

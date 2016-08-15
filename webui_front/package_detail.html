@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="SkyStarStudio">
+
+  <title> 一格旅行 </title>
+
+  <!-- STYLES -->
+  <link href="assets/css/animate.min.css" rel="stylesheet">
+  <link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" media="screen">
+  <link href="assets/css/flexslider.css" rel="stylesheet" media="screen">
+  <link href="assets/css/style.css" rel="stylesheet" media="screen">
+
+  <!-- LIGHT -->
+  <link rel="stylesheet" type="text/css" href="assets/css/dummy.css" id="select-style">
+  <link rel="stylesheet" type="text/css" href="assets/css/color/red.css">
+  <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+  <link href="assets/css/light.css" rel="stylesheet" media="screen">
+
+</head>
+<body class="load-full-screen">
+  <!-- BEGIN: PRELOADER -->
+  <div id="loader" class="load-full-screen">
+    <div class="loading-animation">
+      <span><i class="fa fa-plane"></i></span>
+      <span><i class="fa fa-bed"></i></span>
+      <span><i class="fa fa-ship"></i></span>
+      <span><i class="fa fa-suitcase"></i></span>
+    </div>
+  </div>
+  <!-- END: PRELOADER -->
+
+  <!-- BEGIN: SITE-WRAPPER -->
+  <div class="site-wrapper">
+    <div class="row header-top">
+      <div class="container clear-padding">
+        <div class="navbar-contact">
+          <div class="col-md-7 col-sm-6 clear-padding">
+            <a href="#" class="transition-effect"><i class="fa fa-phone"></i> (+86)18911983180</a>
+            <a href="#" class="transition-effect"><i class="fa fa-envelope-o"></i> skystarstudio@163.com</a>
+          </div>
+          <div class="col-md-5 col-sm-6 clear-padding search-box">
+            <div class="col-md-6 col-xs-5 clear-padding">
+              <form >
+                <div class="input-group">
+                  <input type="text" name="search" class="form-control" required placeholder="搜索">
+                  <span class="input-group-addon"><i class="fa fa-search fa-fw"></i></span>
+                </div>
+              </form>
+            </div>
+            <div class="col-md-6 col-xs-7 clear-padding user-logged">
+              <a href="#" class="transition-effect">
+                <img src="assets/images/user.jpg" alt="skystarstudio">
+                一格旅行
+              </a>
+              <a href="#" class="transition-effect">
+                <i class="fa fa-sign-out"></i>登出
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+    <div class="row light-menu">
+      <div class="container clear-padding">
+        <!-- BEGIN: HEADER -->
+        <div class="navbar-wrapper">
+          <div class="navbar navbar-default" role="navigation">
+            <!-- BEGIN: NAV-CONTAINER -->
+            <div class="nav-container">
+              <div class="navbar-header">
+                <!-- BEGIN: TOOGLE BUTTON (RESPONSIVE)-->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                </button>
+
+                <!-- BEGIN: LOGO -->
+                <a class="navbar-brand logo" href="index.html">一格旅行</a>
+              </div>
+
+              <!-- BEGIN: NAVIGATION -->
+              <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                  <li>
+                    <a href="#" ><i class="fa fa-home"></i> 首页</a>
+                  </li>
+                  <li>
+                    <a href="diy.html"><i class="fa fa-pencil"></i> 私人定制</a>
+                  </li>
+                  <li>
+                    <a href="free.html"><i class="fa fa-suitcase"></i> 自由行</a>
+                  </li>
+                  <li>
+                    <a href="services.html"><i class="fa fa-ship"></i> 服务</a>
+                  </li>
+                  <li>
+                    <a href="about.html"><i class="fa fa-bookmark"></i> 关于我们</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- END: NAVIGATION -->
+            </div>
+            <!-- END: NAV-CONTAINER -->
+          </div>
+        </div>
+        <!-- END: HEADER -->
+      </div>
+    </div>
+
+    <!-- START: PAGE TITLE -->
+    <div class='row page-title'>
+      <div class='container clear-padding text-center'>
+        <h3>东京一地5日游</h3>
+        <h4>6天/5晚</h4>
+        <span>北京(0)<i class='fa fa-long-arrow-right'></i>东京 (5)<i class='fa fa-long-arrow-right'></i>北京 (0)</span>
+      </div>
+    </div>
+    <!-- END: PAGE TITLE -->
+    <div class='row package-detail'>
+      <div class='container clear-padding'>
+        <div class='main-content col-md-8'>
+          <!-- START: GALLERY -->
+          <div id='gallery' class='carousel slide' data-ride='carousel'>
+            <ol class='carousel-indicators'>
+              <li data-target='#gallery' data-slide-to='0' class='active'></li>
+              <li data-target='#gallery' data-slide-to='1'></li>
+              <li data-target='#gallery' data-slide-to='2'></li>
+            </ol>
+            <div class='carousel-inner' role='listbox'>
+              <div class='item active'>
+                <img src="assets/images/slide.jpg" alt='skystarstudio'>
+              </div>
+              <div class='item'>
+                <img src="assets/images/slide2.jpg" alt='skystarstudio'>
+              </div>
+              <div class='item'>
+                <img src="assets/images/slide.jpg" alt='skystarstudio'>
+              </div>
+            </div>
+            <a href="#gallery" class='left carousel-control' role='button' data-slide='prev'>
+              <span class='fa fa-chevron-left' aria-hidden='true'></span>
+              <span class='sr-only'>上一页</span>
+            </a>
+            <a href="#gallery" class='right carousel-control' role='button' data-slide='next'>
+              <span class='fa fa-chevron-right' aria-hidden='true'></span>
+              <span class='sr-only'>下一页</span>
+            </a>
+          </div>
+          <div class='package-complete-detail'>
+            <ul class='nav nav-tabs'>
+              <li><a href="#overview" data-toggle='tab'><i class='fa fa-suitcase'></i> <span>概览</span></a></li>
+              <li><a href="#inclusion" data-toggle='tab'><i class='fa fa-check-square'></i> <span>包含内容</span></a></li>
+              <li class='active'><a href="#itinerary" data-toggle='tab'><i class='fa fa-street-view'></i> <span>线路</span></a></li>
+              <li><a href="#add-info" data-toggle='tab'><i class='fa fa-info-circle'></i> <span>附加信息</span></a></li>
+            </ul>
+            <div class='tab-content'>
+              <div id='overview' class='tab-pane fade'>
+                <h4 class='tab-heading'>概述</h4>
+                <p>这条东京一地的线路是我们专为一对情侣设计的，分别安排了女生喜欢住在有当地特色的酒店及男生喜欢住在现代及方便的酒店, 女生喜欢当地的文化,品尝特色各种美食, 我们更精心为她们安排了一堂做寿司的课. 男生喜欢摄影, 喜欢逛摄影器材, 喜欢动漫, 我们也特意为她们安排了曾经张千里所推荐的新宿二手摄影器材店.这6天的行程安排了明治神宫, 浅草寺等景点来感受日本的历史文化, 也安排了涩谷, 银座, 台场, 秋叶原等景点, 体验东京的繁华.</p>
+                <h4 class='tab-heading'>费用包含</h4>
+                <p class='inc'>
+                  <i class='fa fa-check-circle'></i> 往返机票<br>
+                  <i class='fa fa-check-circle'></i> 酒店住宿<br>
+                </p>
+                <h4 class='tab-heading'>费用不包括</h4>
+                <p class='inc'>
+                  <i class='fa fa-times-circle-o'></i> 签证费用<br>
+                </p>
+              </div>
+              <div id='inclusion' class='tab-pane fade'>
+                <h4 class='tab-heading'>包含内容</h4>
+                <div class='inclusion-wrapper'>
+                  <div class='inclusion-title'>
+                    <p><span><i class='fa fa-bed'></i></span>酒店</p>
+                  </div>
+                  <div class='inclusion-body'>
+                    <h4>东京3晚</h4>
+                    <div class='col-md-3 col-sm-3 clear-padding'>
+                      <img src="assets/images/offer1.jpg" alt='江户樱花饭店'>
+                    </div>
+                    <div class='col-md-9 col-sm-9'>
+                      <h5>江户樱花饭店 The Edo Sakura</h5>
+                      <p>出门步行5分钟就可以达到地铁入谷站, 出行十分方便. 房间很新, 非常有日式风情, 而且干净整洁, 周围环境很安静.</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <h4>东京3晚</h4>
+                    <div class='col-md-3 col-sm-3 clear-padding'>
+                      <img src="assets/images/offer2.jpg" alt=''>
+                    </div>
+                    <div class='col-md-9 col-sm-9'>
+                      <h5>东京千禧三井花园饭店 (Millennium Mitsui Garden Hotel Tokyo)</h5>
+                      <p>酒店的位置超方便，是购物狂们的最爱，就位于三越百货对面，步行可以到达银座和筑地市场。购物完了可以把战利品放在房间里再出去用餐，很方便。</p>
+                    </div>
+                    <div class='clearfix'></div>
+                  </div>
+                </div>
+                <div class='inclusion-wrapper'>
+                  <div class='inclusion-title'>
+                    <p><span><i class='fa fa-plane'></i></span>交通</p>
+                  </div>
+                  <div class='inclusion-body'>
+                    <h4>往返航班</h4>
+                    <div class='flight-inclusion'>
+                      <div class='col-md-2 col-sm-2 col-xs-2 text-center'>
+                        <img src="assets/images/airline/airline.jpg" alt=''>
+                      </div>
+                      <div class='col-md-3 col-sm-3 col-xs-3 text-center'>
+                        <p>北京国际机场</p>
+                      </div>
+                      <div class='col-md-4 col-sm-4 col-xs-4 text-center'>
+                        <i class='fa fa-long-arrow-right'></i>
+                      </div>
+                      <div class='col-md-3 col-sm-3 col-xs-3 text-center'>
+                        <p>东京羽田机场</p>
+                      </div>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='flight-inclusion'>
+                      <div class='col-md-2 col-sm-2 col-xs-2 text-center'>
+                        <img src="assets/images/airline/airline.jpg" alt=''>
+                      </div>
+                      <div class='col-md-3 col-sm-3 col-xs-3 text-center'>
+                        <p>东京羽田机场</p>
+                      </div>
+                      <div class='col-md-4 col-sm-4 col-xs-4 text-center'>
+                        <i class='fa fa-long-arrow-right'></i>
+                      </div>
+                      <div class='col-md-3 col-sm-3 col-xs-3 text-center'>
+                        <p>北京国际机场</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class='inclusion-wrapper'>
+                  <div class='inclusion-title'>
+                    <p><span><i class='fa fa-suitcase'></i></span>其他包含内容</p>
+                  </div>
+                  <div class='inclusion-body'>
+                    <p class='inc'>
+                      <i class='fa fa-check-circle'></i> 保险
+                      <i class='fa fa-check-circle'></i> 随身WIFI
+                      <i class='fa fa-check-circle'></i> 路书
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div id='itinerary' class='tab-pane fade in active'>
+                <h4 class='tab-heading'>旅行线路</h4>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第一天</span>抵达东京</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>从北京乘坐上午的航班, 经过大约4小时的飞行之后, 我们下午就会到达日本首府 ——东京, 先到酒店CheckIn, 放好行李, 随后前往森美术馆参观后来到52层的观景台, 如果天气条件允许的话, 还有机会可以上屋顶的露天观景台俯瞰东京的城市夜景. 不仅如此, 还可在这层的Mado Lounge点杯小酒, 享受这惬意的氛围.随后回酒店, 好好休息!</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括:</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 森美术馆</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 东京夜景</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第二天</span>上野 - 涩谷 - 原宿 - 新宿</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>早餐后前往著名的涩谷109大厦, 涩谷车站前巨大的十字路口因为其汹涌的人潮以及各种巨幅广告和电子屏幕而被誉为世界上最著名的十字路口. 而同样位于涩谷地区的代官山则是各类咖啡馆、时装店和杂货店等时髦商店的聚集地. 跟随电影<<忠犬八公的故事>>来到八公广场,找到 八公像 , 与它合个影吧! 之后来到 原宿(Harajuku), 到咱们的打卡景点 明治神宫 游览, 随后逛逛原宿最热门地区竹下通. 这是从原宿站竹下口对面的竹下街到明治大街区域的一条商店街，在这一条街上汇集了各式各样的服装、餐饮、杂货店等，是日本的学生们最喜欢逛的地方. 在这里, 你能看到那些哥特—萝莉装扮的女孩们哦(想象一下僵尸小波碧, zombie Little Bo Peep)! 接着在表参道欣赏夺人眼球的当代建筑, 这里是高档设计时装及一线品牌服装店的聚集地. 在这里你可以找到像川久保玲、ISSEY MIYAKE等日本本地和一些欧洲顶级设计师的作品. 也可以在逛原宿的时候顺道去表参道随意逛逛，感受一下东京的高端时尚气息. 之后到新宿的MapCamera —— MapCamera是近年來相当红火的中古相机店，位于新宿西口的热闹地段，虽然店面并不显眼，附近还被カメラのキタムラ和Yodobashi Camera包围. 但MapCamera的特色是国內外各式相机货色一应俱全，并且完全以精品店的方式呈现，即便贩卖的多是二手相机(它们也有卖新相机)也不能影响它的火热，最重要的是客人只需要带着护照, 就可以免税。晚上在新宿看霓虹灯, 再到金街的某个酒吧里畅饮.</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 明治神宫</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 涩谷十字路口</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 八公像</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 竹下通</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 表参道</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 新宿</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第三天</span>上野 - 浅草 - 秋叶原</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>早上前往浅草寺那边感受历史文化，之后去太鼓馆亲自体验一把真实的太鼓の达人. 中午到三大地标之一的晴空塔, 一边享用米其林餐厅的美食, 一边将东京全景尽收眼底. 下午可先到上野公园逛逛, 随后到日本御宅文化的聚集地秋叶原.</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 浅草寺</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 太鼓馆</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 秋叶原</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> Home Cafe</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> Super Potato Retro-kan</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 神保町</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第四天</span>上野 - 汐留 - 银座</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>早餐后退房, 换个酒店住啦. 前往位于银座的东京千禧三井花园饭店, 把行李寄存在酒店, 然后到以前是德川家的马场和猎场—— 滨离宫恩赐庭园 , 走进这座美丽庭院, 在这里千万不要错过中岛御茶屋(Nakajima no Ochaya), 它优雅地位于滨离宫恩赐庭园中的一座衫木桥旁. 在这儿可以一边品尝抹茶(macha), 一边凝望观照园墙外那遥远的21世纪. 下午我们回到银座 , 傍晚前去歌舞伎座欣赏日本传统歌舞表演. 晚上可在银座附近逛逛.</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括:</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 滨离宫恩赐庭园</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 中岛御茶屋</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 歌舞伎座</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 银座</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第五天</span>银座 - 筑地 - 台场</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>早上起来步行来到全世界最大的海鲜市场筑地市场 , 如果你愿意, 可以凌晨来排队看传说中的金枪鱼拍卖. 要是起不来, 咱还是睡到自然醒, 然后再来体验一下当地的市场气息吧! 来这里千万不要吃了早饭来哦! 因为我们要到筑地的场外市场——吃货们的天堂, 这里拥有寿司、海鲜饭、拉面、玉子烧各式各样的美食. PS: 在大和寿司 吃寿司早餐, 之后前往乘坐无人驾驶的临海线去台场 的路上乐趣无穷, 列车从新桥(Shimbashi)站出发, 像一条蛇一样穿梭在摩天大楼之间, 然后驶过彩虹桥. 见过台场标志性建筑物富士电视台 , 它承载了很多人的童年, <<铁壁阿童木>>,<<龙珠>>,<<樱桃小丸子>>,<< ONE PIECE >>等卡通都是通过这里变得家喻户晓. 之后我们来到 东京快乐城邦 ,这个游戏制造商世嘉(Sega)经营的三层楼室内游乐场里释放内心的童真吧!这里可以找到各种虚拟现实游戏和动作游戏, 包括可以射僵尸的过山车(黑暗面纱,Veil of Dark)以及一款使用真车的驾驶游戏(头文字D街机4,Initial D Arcade Stage 4). 在富士电视台的对面的Diver City Mall的门口有一座18米高的高达模型, 周围还有高达咖啡馆和模型店, 喜欢模型的朋友千万不能错过. 最后回到台场海滨公园 , 拍摄东京湾夜景.</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括:</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 筑地市场</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 富士电视台</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 快乐城邦</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 18米高达模型</p>
+                      </div>
+                      <div class='clearfix'></div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 台场海滨公园</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 东京塔&彩虹桥</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+                <div class='daily-schedule'>
+                  <div class='title'>
+                    <p><span>第六天</span>银座 - 回家</p>
+                  </div>
+                  <div class='daily-schedule-body'>
+                    <div class='col-md-4 col-sm-4'>
+                      <img src="assets/images/tour1.jpg" alt=''>
+                    </div>
+                    <div class='col-md-8 col-sm-8'>
+                      <p>今天就休闲一些，退完房,可把行李寄存在酒店, 之后在银座这个购物中心转转吧.你可以根据需求买买东西，休闲一下.根据晚上回国的航班时间, 收拾下,准备前往机场吧!</p>
+                    </div>
+                    <div class='clearfix'></div>
+                    <div class='col-md-12 activity'>
+                      <h4>包括:</h4>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 银座</p>
+                      </div>
+                      <div class='col-md-6 col-sm-6'>
+                        <p><i class='fa fa-check-square'></i> 米其林</p>
+                      </div>
+                      <div class='clearfix'></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div id='add-info' class='tab-pane fade'>
+                <h4 class='tab-heading'>包含</h4>
+                <p class='inc'>
+                  <i class='fa fa-check-circle'></i> 保险<br>
+                  <i class='fa fa-check-circle'></i> 随身WIFI<br>
+                </p>
+                <h4 class='tab-heading'>不包含</h4>
+                <p class='inc'>
+                  <i class='fa fa-times-circle-o'></i> 小费<br>
+                  <i class='fa fa-times-circle-o'></i> 餐费<br>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='col-md-4 package-detail-sidebar'>
+          <div class='col-md-12 sidebar-wrapper clear-padding'>
+            <div class='package-summary sidebar-item'>
+              <h4><i class='fa fa-bookmark'></i> 线路信息</h4>
+              <div class='package-summary-body'>
+                <h5><i class='fa fa-heart'></i> 主题</h5>
+                <p>情侣, 文化, 美食, 摄影</p>
+                <h5><i class='fa fa-map-marker'></i> 出发地</h5>
+                <p>北京</p>
+                <h5><i class='fa fa-globe'></i> 途经&目的地</h5>
+                <p>东京</p>
+              </div>
+              <div class='package-summary-footer text-center'>
+                <div class='col-md-6 col-sm-6 col-xs-6 price'>
+                  <h5>基础起步价:</h5>
+                  <h5>8000元/人</h5>
+                </div>
+                <div class='col-md-6 col-sm-6 col-xs-6 book'>
+                  <a href="#">立即预定</a>
+                </div>
+              </div>
+            </div>
+            <div class='sidebar-booking-box'>
+              <h3 class='text-center'>预定行程</h3>
+              <div class='booking-box-body'>
+                <form >
+                  <div class='col-md-12 col-sm-12 col-xs-12'>
+                    <label>出发日期</label>
+                    <div class='input-group margin-bottom-sm'>
+                      <input type='text' id='check_in' name='check_in' class='form-control' placeholder='YYYY/MM/DD'>
+                      <span class='input-group-addon'><i class='fa fa-calendar fa-fw'></i></span>
+                    </div>
+                  </div>
+                  <div class='col-md-12 col-sm-12 col-xs-12'>
+                    <label>天数</label>
+                    <select class='selectpicker' name='rooms'>
+                      <option>5天</option>
+                    </select>
+                  </div>
+                  <div class='col-md-6 col-sm-6 col-xs-6'>
+                    <label>成人</label>
+                    <select class='selectpicker' name='adult'>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </div>
+                  <div class='col-md-6 col-sm-6 col-xs-6'>
+                    <label>儿童(12岁以下)</label>
+                    <select class='selectpicker' name='child'>
+                      <option>0</option>
+                      <option>1</option>
+                      <option>2</option>
+                      <option>3</option>
+                      <option>4</option>
+                      <option>5</option>
+                      <option>6</option>
+                    </select>
+                  </div>
+                  <div class='room-price'>
+                    <div class='col-md-8 col-sm-8 col-xs-8'>
+                      <label><input type='checkbox' name='double'><span>双床房</span></label>
+                    </div>
+                  </div>
+                  <div class='clearfix'></div>
+                  <div class='room-price'>
+                    <div class='col-md-8 col-sm-8 col-xs-8'>
+                      <label><input type='checkbox' name='king'><span>大床房</span></label>
+                    </div>
+                  </div>
+                  <div class='clearfix'></div>
+                  <div class='grand-total text-center'>
+                    <div class='col-md-6 col-sm-6 col-xs-6'>
+                      <h4>共计 8800元</h4>
+                    </div>
+                    <div class='col-md-6 col-sm-6 col-xs-6'>
+                    <button type='submit'>预定</button>
+                  </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- BEGIN: FOOTER -->
+    <section id='footer'>
+      <footer>
+        <div class='row main-footer-sub'>
+          <div class='container clear-padding'>
+            <div class='col-md-7 col-sm-7'>
+              <form >
+                <label>订阅新闻</label>
+                <div class='clearfxi'></div>
+                <div class='col-md-9 col-sm-8 col-xs-6 clear-padding'>
+                  <input class='form-control' type='email' required placeholder='输入您的邮箱' name='email'>
+                </div>
+                <div class='col-md-3 col-sm-4 col-xs-6 clear-padding'>
+                  <button type='submit'><i class='fa fa-paper-plane'></i>订阅</button>
+                </div>
+              </form>
+            </div>
+            <div class='col-md-5 col-sm-5'>
+              <div class='social-media pull-right'>
+                <ul>
+                  <li><a href="#"><i class='fa fa-weibo'></i></a></li>
+                  <li><a href="#"><i class='fa fa-weixin'></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class='main-footer row'>
+          <div class='container clear-padding'>
+            <div class='col-md-3 col-sm-6 about-box'>
+              <h3>一格旅行</h3>
+              <p>您身边的私人旅行定制师</p>
+              <a href="#">了解更多</a>
+            </div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>热门线路</h4>
+              <ul>
+                <li><a href="#">东京一地5日游</a></li>
+                <li><a href="#">大阪京都5日游</a></li>
+                <li><a href="#">北海道7日游</a></li>
+              </ul>
+            </div>
+            <div class='clearfix visible-sm-block'></div>
+            <div class='col-md-3 col-sm-6 links'>
+              <h4>我们的服务</h4>
+              <ul>
+                <li><a href="#">私人个性化定制</a></li>
+                <li><a href="#">经典自由行线路</a></li>
+                <li><a href="#">机票酒店预定</a></li>
+                <li><a href="#">代办签证</a></li>
+              </ul>
+            </div>
+            <div class='col-md-3 col-sm-6 contact-box'>
+              <h4>联系我们</h4>
+              <p><i class='fa fa-home'></i> 北京市西便门外大街7号院</p>
+              <p><i class='fa fa-phone'></i> +86 18911983180</p>
+              <p><i class='fa fa-envelope-o'></i> skystarstudio@163.com</p>
+            </div>
+            <div class='clearfix'></div>
+            <div class='col-md-12 text-center we-accept'>
+              <h4>付款方式</h4>
+              <ul>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+                <li><img src="assets/images/card/card.jpg" alt="cruise"></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class='main-footer-nav row'>
+          <div class='container clear-padding'>
+            <div class='col-md-6 col-sm-6'>
+              <p>Copyright &copy; 2016 SkyStarStudio. All Rights Reserved.</p>
+            </div>
+            <div class='col-md-6 col-sm-6'>
+              <ul>
+                <li><a href="#">私人定制</a></li>
+                <li><a href="#">自由行线路</a></li>
+                <li><a href="#">服务</a></li>
+                <li><a href="#">关于我们</a></li>
+              </ul>
+            </div>
+            <div class='go-up'>
+              <a href="#"><i class='fa fa-arrow-up'></i></a>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- END: FOOTER -->
+  </div>
+  <!-- END: SITE WRAPPER -->
+    <!-- Load Scripts -->
+    <script src="assets/js/respond.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/plugins/owl.carousel.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/plugins/wow.min.js"></script>
+    <script src="assets/js/js.js"></script>
+  </body>
+</html>
